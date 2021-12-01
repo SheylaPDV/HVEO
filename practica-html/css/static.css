@@ -1,0 +1,61 @@
+:root {
+    scroll-behavior: smooth;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.item {
+    width: 200px;
+}
+
+.item1 {
+    background-color: yellow;
+}
+.item2 {
+    background-color: violet;
+}
+.item3 {
+    background-color: turquoise;
+}
+.item4 {
+    background-color: chocolate;
+}
+.item5 {
+    background-color: darkgreen;
+}
+img {
+    max-width: 100%;
+}
+
+nav {
+    position: absolute;
+}
+.video {
+    max-width: 40%;
+}
+
+
+.navbar-list .navbar-item {
+    color: rgb(199, 19, 19);
+    list-style-type: none;
+    margin: 1rem 0;
+
+    
+}
+.logo {
+    color: black;
+    font-size: 200px;
+}
+a:link {
+    color: white;
+}
+.navbar-item a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    list-style-type: none;
+    width: 100%;
+}
