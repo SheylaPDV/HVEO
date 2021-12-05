@@ -1,0 +1,17 @@
+.inicio-sesion {
+    background-color:black;
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 35%;
+    position: fixed;
+}
+@media all and (min-width: 768px) {
+    .inicio-sesion {
+        flex-direction: row;
+    }
+}
