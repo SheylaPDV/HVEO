@@ -3,11 +3,9 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
+
 body {
     margin: 0;
-}
-
-.background {
     background-image: url(/images/cine8.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -73,6 +71,7 @@ h3 {
     height: 50px;
     width: 350px;
     margin-bottom: 30px;
+    border-radius: 50px;
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
 }
 
