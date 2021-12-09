@@ -30,6 +30,7 @@ body {
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
 }
 
+
 .inicio-sesion {
     background-color:rgba(0, 0, 0, 0.342); 
     display: flex;
@@ -42,6 +43,11 @@ body {
     flex: 1;
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
 }
+
+.pie-de-pagina {
+    background-color: gray;
+}
+
 
 .titulo-iniciosesion {
     color: rgb(255, 255, 255);
@@ -93,20 +99,6 @@ a {
     padding-left: 80px;
     margin-top: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
