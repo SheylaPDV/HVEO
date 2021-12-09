@@ -1,3 +1,17 @@
+:root {
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+
 .trailer .video-trailer{
     height: 800px;
+    padding: 50px;
+}
+
+.sinopsis {
+    background-color:rgba(0, 0, 0, 0.342);
+    color: white;
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+    padding: 50px;
 }

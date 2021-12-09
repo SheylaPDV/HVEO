@@ -75,6 +75,10 @@ h3 {
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
 }
 
+.boton-iniciarsesion:hover {
+    background-color: gray;
+}
+
 a {
     color: white;
     text-decoration: none;

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no">
     <link rel="stylesheet" href="css/principal.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
     <symbol id="icon-search1" viewBox="0 0 32 32">
@@ -17,29 +17,30 @@
 <body class="fondo">
 
     <header class="barra">
-        <div class="barra-navegacion">
+        <!-- <div class="barra-navegacion"> -->
 
-            <a href="index.html">
-                <h1 class="logo">HVEO</h1>
-            </a>
-            <a href class="item item1" target="">Novedades</a>
-            <a href class="item item2" target="">Películas</a>
-            <a href class="item item3" target="">Series</a>
-            <a href class="item item4" target="">Favoritos</a>
+        <a href="index.html">
+            <h1 class="logo">HVEO</h1>
+        </a>
+        <a href class="item item1" target="">Novedades</a>
+        <a href class="item item2" target="">Películas</a>
+        <a href class="item item3" target="">Series</a>
+        <a href class="item item4" target="">Favoritos</a>
+        <input class="busqueda" type="search" placeholder="Search">
+        <img src="images/svg.svg" alt="buscar" class="lupa">
 
-            <div>
-                <input class="busqueda" type="search" placeholder="Search">
-                <img src="images/svg.svg" alt="buscar" class="lupa">
-                <a href="index.html">
-                    <button class="cerrar-sesion" type="button">Cerrar sesión</button>
-                </a>
-            </div>
-
-        </div>
+        <div class="cerrar">
+        <a href="index.html">
+            <button class="cerrar-sesion" type="button">Cerrar sesión</button>
+        </a>
+    </div>
+        
     </header>
+    
+            
 
     <!-- <div class="imagen"> -->
-    <a href="./images/hojas.mp4" aria-controls="">
+    <!-- <a href="./images/hojas.mp4" aria-controls=""> -->
         <!-- <video class="video" src="./images/hojas.mp4" autoplay>video</video> -->
         <!-- </a> -->
 
@@ -62,9 +63,16 @@
                 <img class="film img4" src="images/increibles.jpg" alt="photo 1">
                 <img class="film img5" src="images/nosotros.jpg" alt="photo 1">
                 <img class="film img6" src="images/enemigo.jpg" alt="photo 1">
-            </a>
-            
+            </a> 
         </section>
+
+        <footer>
+            <address>
+                <li>
+                    Contacto
+                </li>
+            </address>
+        </footer>
 </body>
 
 </html>

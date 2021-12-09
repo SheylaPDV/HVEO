@@ -9,36 +9,48 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
         <symbol id="icon-search1" viewBox="0 0 32 32"> 
         </symbol>
-        <title>Ficha pelicula</title>
+        <title>Sinopsis</title>
     </head>
 <body class="fondo">
     
     <header class="barra">
-        <div class="barra-navegacion">
+        <!-- <div class="barra-navegacion"> -->
 
+        <a href="index.html">
+            <h1 class="logo">HVEO</h1>
+        </a>
+        <a href class="item item1" target="">Novedades</a>
+        <a href class="item item2" target="">Películas</a>
+        <a href class="item item3" target="">Series</a>
+        <a href class="item item4" target="">Favoritos</a>
+        <input class="busqueda" type="search" placeholder="Search">
+        <img src="images/svg.svg" alt="buscar" class="lupa">
+
+        <div class="cerrar">
             <a href="index.html">
-                <h1 class="logo">HVEO</h1>
+                <button class="cerrar-sesion" type="button">Cerrar sesión</button>
             </a>
-            <a href class="item item1" target="">Novedades</a>
-            <a href class="item item2" target="">Películas</a>
-            <a href class="item item3" target="">Series</a>
-            <a href class="item item4" target="">Favoritos</a>
-
-            <div>
-                <input class="busqueda" type="search" placeholder="Search">
-                <img src="images/svg.svg" alt="buscar" class="lupa">
-                <a href="index.html">
-                    <button class="cerrar-sesion" type="button">Cerrar sesión</button>
-                </a>
-            </div>
-
         </div>
+        
     </header>
 
     <section class="trailer">
         <video class="video-trailer" src="images/Hombre con maquillaje de calavera enciende una vela.mp4" controls></video>
-        <p>hola que tal</p>
+
     </section>
+
+    <article class="sinopsis">
+        <table>
+            <h1>Sinopsis</h1>
+            <h2>El psicoanalista</h2>
+            <p>El psicoanalista. El psicoanalista Frederick Starks recibe un anónimo que dice «Feliz aniversario, doctor.<br>
+            Bienvenido al primer día de su muerte.» Esta situación estresante lo obliga a emplear toda su astucia y rapidez para,<br>
+            en quince días, averiguar quién es el autor de esa amenazadora nota que promete hacerle la vida imposible.<br>
+            De no conseguir su objetivo, deberá elegir entre suicidarse o ser testigo de cómo, uno tras otro,<br>
+            sus familiares y conocidos mueren por obra de un psicópata decidido a llevar hasta el final su sed de venganza.
+            </p>
+        </table>
+    </article>
 
     
 </body>
