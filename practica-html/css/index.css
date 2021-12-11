@@ -3,6 +3,9 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
+html {
+    height: 100%;
+}
 
 body {
     margin: 0;
@@ -11,31 +14,41 @@ body {
     background-position: top center;
     background-size: cover;
     background-color: #474646;
-    height: 100vh;
+    height: 100%;
+    
 }
 
-.barra-navegacion {
-    margin-bottom: 50px;
+/* #######  Header ####### */
+
+header {
+    height: 20%;
+    padding: 30px;
 }
 
 .logo {
     color: white;
     font-size: 100px;
-    margin-left: 50px;
+    margin: auto;
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
     text-shadow: 20px 10px 20px rgba(12, 150, 230, 0.486),
                  20px -20px 20px rgba(58, 211, 20, 0.459),
                 -20px 20px 20px rgba(20, 189, 211, 0.459),
                 -20px -20px 20px rgba(12, 230, 30, 0.486);
-    margin-top: 50px;
-    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+    
 }
 
+/* ####### Main  ####### */
 
-.inicio-sesion {
-    background-color:rgba(0, 0, 0, 0.342); 
+main {
+    height: 70%;
+    width: 100%;
+}
+
+.formulario-inicio-sesion {
+    background-color:rgba(0, 0, 0, 0.342);
     display: flex;
+    padding-bottom: 40px;
     align-items: center;
-    height: 50%;
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -44,67 +57,66 @@ body {
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
 }
 
-.pie-de-pagina {
-    background-color: gray;
+.formulario-inicio-sesion h1 {
+    font-style: italic;
+    padding-top: 20px;
+    color: white;
+    font-size: 42px;
+    margin: auto;
 }
 
-
-.titulo-iniciosesion {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    padding-bottom: 1rem;
-}
-
-h3 {
-    color: rgb(245, 241, 2);
-}
-
-.campo-correo {
-    width: 340px;
-    height: 30px;
-    margin-bottom: 30px;
-}
-
-.campo-contraseña {
-    width: 340px;
-    height: 30px;
-    margin-bottom: 30px;
-}
-
-.boton-iniciarsesion {
-    background-color: rgb(0, 0, 0);
-    font-size: 18px;
-    height: 50px;
-    width: 350px;
-    margin-bottom: 30px;
-    border-radius: 50px;
-    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
-}
-
-.boton-iniciarsesion:hover {
-    background-color: gray;
+.formulario-inicio-sesion h3 {
+    font-style: italic;
+    color: rgb(210, 223, 26);
+    font-size: 23px;
+    margin-bottom: 0px;
+    
 }
 
 a {
     color: white;
     text-decoration: none;
-    cursor: pointer;
 }
 
-.chequeo .recordar {
-    align-items: flex-start; 
+.ayuda {
+    display: flex;
+    flex-direction: row;
 }
 
-.enlace-ayuda {
-    padding-left: 80px;
+.recordar, .enlace-ayuda {
+    color: white;
+    margin-top: 15px;
+}
+
+.input-form {
+    width: 350px;
+    height: 30px;
+    margin-top: 20px;
+    min-width: 325px;
+}
+
+.boton-form {
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    height: 50px;
+    width: 350px;
     margin-top: 30px;
+    border-radius: 50px;
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+}
+.boton-form:hover {
+    background-color: gray;
 }
 
 
+/* ####### Footer ####### */
 
-.imagen {
-    height: 300px;
-    margin-left: 100px;
-    margin-top: 40px;
+footer {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
 }
-

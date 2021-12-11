@@ -10,35 +10,37 @@
     <title>HVEO</title>
 </head>
 
-<body class="fondo">
+<body>
 
-    <header class="barra">
-
-        <a href="index.html">
-            <h1 class="logo">HVEO</h1>
-        </a>
-        <a href class="item item1" target="">Novedades</a>
-        <a href class="item item2" target="">Películas</a>
-        <a href class="item item3" target="">Series</a>
-        <a href class="item item4" target="">Favoritos</a>
-        <input class="busqueda" type="search" placeholder="Search">
-        <img src="images/svg.svg" alt="buscar" class="lupa">
-
-        <div class="cerrar">
+    <header>
+        <h1 class="logo">HVEO</h1>
+        <div class="enlaces">
+            <a href class="item">Novedades</a>
+            <a href class="item">Películas</a>
+            <a href class="item">Series</a>
+            <a href class="item">Favoritos</a>
+        </div>
+        <div class="barra-busqueda">
+            <input type="search" placeholder="Search">
+            <img src="images/svg.svg" alt="buscar" class="lupa">
             <a href="index.html">
-                <button class="cerrar-sesion" type="button">Cerrar sesión</button>
+                <button class="boton-cerrar-sesion" type="button" onclick="index.html">
+                    Cerrar sesión
+                </button>
             </a>
         </div>
-
     </header>
 
-    <section class="seccion-film">
+    <section>
         <a href="pelicula.html">
             <div class="contenido">
                 <img class="film " src="images/anabelle.jpg" alt="anabelle">
                 <div class="overlay">
                     <p class="text">
-                        Titulo: el niño de la guerra
+                        Titulo: anabelle
+                        Calificación: 4,5
+                        Año de publicación: 2018
+                        Sinopsis: Una muñeca poseida en busca de venganza
                     </p>
                 </div>
             </div>
@@ -46,28 +48,48 @@
             <div class="contenido">
                 <img class="film" src="images/anderson.jpg" alt="anderson">
                 <div class="overlay">
-                    <div class="text">Hello World</div>
+                    <ul class="text">
+                        Titulo: el niño de la guerra
+                        Calificación: 3,2
+                        Año de publicación: 2019
+                        Sinopsis: Una nia muy loca
+                    </ul>
                 </div>
             </div>
 
             <div class="contenido">
                 <img class="film" src="images/rabit.jpg" alt="rabbit">
                 <div class="overlay">
-                    <div class="text">Hello World</div>
+                    <p class="text">
+                        Titulo: el niño de la guerra
+                        Calificación: 5
+                        Año de publicación: 2018
+                        Sinopsis: Una nia muy loca
+                    </p>
                 </div>
             </div>
 
             <div class="contenido">
                 <img class="film" src="images/increibles.jpg" alt="increibles">
                 <div class="overlay">
-                    <div class="text">Hello World</div>
+                    <p class="text">
+                        Titulo: el niño de la guerra
+                        Calificación:7,6
+                        Año de publicación: 2018
+                        Sinopsis: Una nia muy loca
+                    </p>
                 </div>
             </div>
 
             <div class="contenido">
                 <img class="film" src="images/nosotros.jpg" alt="nosotros">
                 <div class="overlay">
-                    <div class="text">Hello World</div>
+                    <p class="text">
+                        Titulo: el niño de la guerra
+                        Calificación: 8,8
+                        Año de publicación: 2018
+                        Sinopsis: Una nia muy loca
+                    </p>
                 </div>
             </div>
 
@@ -75,12 +97,11 @@
                 <img class="film" src="images/enemigo.jpg" alt="enemigo">
 
                 <div class="overlay">
-                    <div class="text">Hello World</div>
+                    <p class="text">
+                        Hello World
+                    </p>
                 </div>
             </div>
-
-            
-            
         </a>
     </section>
 

@@ -6,47 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/pelicula.css">
-    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/principal.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
     <symbol id="icon-search1" viewBox="0 0 32 32">
     </symbol>
     <title>Sinopsis</title>
 </head>
 
-<body class="fondo">
+<body>
 
-    <header class="barra">
-        <!-- <div class="barra-navegacion"> -->
-
-        <a href="index.html">
-            <h1 class="logo">HVEO</h1>
-        </a>
-        <a href class="item item1" target="">Novedades</a>
-        <a href class="item item2" target="">Películas</a>
-        <a href class="item item3" target="">Series</a>
-        <a href class="item item4" target="">Favoritos</a>
-        <input class="busqueda" type="search" placeholder="Search">
-        <img src="images/svg.svg" alt="buscar" class="lupa">
-
-        <div class="cerrar">
+    <header>
+        <h1 class="logo">HVEO</h1>
+        <div class="enlaces">
+            <a href class="item">Novedades</a>
+            <a href class="item">Películas</a>
+            <a href class="item">Series</a>
+            <a href class="item">Favoritos</a>
+        </div>
+        <div class="barra-busqueda">
+            <input type="search" placeholder="Search">
+            <img src="images/svg.svg" alt="buscar" class="lupa">
             <a href="index.html">
-                <button class="cerrar-sesion" type="button">Cerrar sesión</button>
+                <button class="boton-cerrar-sesion" type="button" onclick="index.html">
+                    Cerrar sesión
+                </button>
             </a>
         </div>
-
     </header>
 
-    <section class="trailer">
+
+
+
+
+
+    <div class="trailer">
         <video class="video-trailer" src="images/Hombre con maquillaje de calavera enciende una vela.mp4"
+            controls>
+        </video>
+
+        <div class="caja-video">
+            <video class="video" src="images/Hombre asiC!tico camina sobre un muelle de la ciudad.mp4"
             controls></video>
 
-    </section>
+            <video class="video" src="images/Hombre asiC!tico camina sobre un muelle de la ciudad.mp4"
+            controls></video>
+
+            <video class="video" src="images/Hombre asiC!tico camina sobre un muelle de la ciudad.mp4"
+            controls></video>
+            
+            <video class="video" src="images/Hombre asiC!tico camina sobre un muelle de la ciudad.mp4"
+            controls></video>
+        </div>
+    </div>
+
+
+
+
+
+
+
 
     <article class="sinopsis">
         <table>
             <h1>Sinopsis</h1>
-            <h2>El psicoanalista</h2>
-            <p>El psicoanalista. El psicoanalista Frederick Starks recibe un anónimo que dice «Feliz aniversario,
+            <h2>EL PSICOANALISTA</h2>
+            <p> El psicoanalista Frederick Starks recibe un anónimo que dice «Feliz aniversario,
                 doctor.<br>
                 Bienvenido al primer día de su muerte.» Esta situación estresante lo obliga a emplear toda su astucia y
                 rapidez para,<br>

@@ -3,16 +3,115 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
-.contenido {
-  position: relative;
-  
+
+body {
+  margin: 0;
+  background-image: url(/images/cine12.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
 }
 
-/* .film {
-  display: block;
+/* ######### Header ########## */
+
+header {
+  background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20%;
   width: 100%;
-  height: auto;
-} */
+  z-index: 99;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.logo {
+  color: white;
+  width: 150px;
+  font-size: 50px;
+  text-shadow: 20px 10px 20px rgba(12, 150, 230, 0.486),
+               20px -20px 20px rgba(58, 211, 20, 0.459),
+              -20px 20px 20px rgba(20, 189, 211, 0.459),
+              -20px -20px 20px rgba(12, 230, 30, 0.486);
+  font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+}
+
+.lupa {
+  width: 20px;
+  margin-left: 7px;
+  height: 20px;
+  margin-right: 7px;
+}
+
+.boton-cerrar-sesion {
+  border-radius: 50px;
+  background-color: black;
+  width: 150px;
+  height: 40px;
+  font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.boton-cerrar-sesion:hover {
+  background-color: white;
+  color: black;
+}
+
+.barra-busqueda {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.barra-busqueda input {
+  height: 40px;
+}
+
+.barra-busqueda a {
+  text-decoration: none;
+  color: white;
+}
+.barra-busqueda a:hover {
+  text-decoration: none;
+  color: black;
+}
+/* ######### section ########## */
+
+section {
+  display: inline-block;
+  margin-top: 30px;
+  flex: 1;
+}
+
+
+.contenido {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.film {
+
+  justify-content: center;
+  transition: .6s ease;
+  width: 300px;
+  height: 450px;
+  flex: 1;
+}
+.film:hover {
+  opacity: 50%;
+}
+
+/* ######### footer ########## */
 
 .overlay {
   height: 100%;
@@ -26,119 +125,36 @@
 }
 
 .text {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
-
+  text-shadow:   1px 1px 1px rgb(255, 255, 255),
+                 1px -1px 1px rgb(255, 255, 255),
+                -1px 1px 1px rgb(255, 255, 255),
+                -1px -1px 1px rgb(255, 255, 255);
 }
 
 
-.fondo {
-  margin: 0;
-  background-image: url(/images/cine12.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  background-color: #000000;
-  background-attachment: fixed;
-  height: 100%;
-  
- 
-}
-
-.contenido {
-  display: inline-block;
-  justify-content: center;
-  align-self: center;
-  align-items: center;
-}
 
 
-.seccion-film {
-  display: inline-block;
-  margin-left: 50px;
-}
 
-  
-.film {
- 
-  display: inline-block;
-  justify-content: center;
-  transition: .6s ease;
-  width: 300px;
-  height: 450px;
-  margin-top: 300px;
-}
-
-
-.film:hover {
-  opacity: 0.3;
-  
-  
-}
-
-/* .contenido:hover .overlay {
-  opacity: 1;
+/* 
+.seccion-film:hover {
+  background-color: black;
 } */
 
-/* .overlay {
   
-  transition: .5s ease;
-  background-color: #008CBA;
-}  */
 
 
-.barra {
-    background-color:rgba(0, 0, 0, 0.342);
-    /* height: 150px;
-    width: 100%; */
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: fixed;
-    height: 150px;
-    width: 100%;
-    z-index: 99;
-    
-}
 
 
-.logo {
-    color: white;
-    width: 150px;
-    font-size: 50px;
-    margin-left: 50px;
-    text-shadow: 20px 10px 20px rgba(12, 150, 230, 0.486),
-                 20px -20px 20px rgba(58, 211, 20, 0.459),
-                -20px 20px 20px rgba(20, 189, 211, 0.459),
-                -20px -20px 20px rgba(12, 230, 30, 0.486);
-    margin-top: 50px;
-    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-.cerrar-sesion {
-    
-    border-radius: 50px;
-    background-color: black;
-    color: white;
-    margin-top: 50px;
-    width: 150px;
-    height: 40px;
-    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
-    cursor: pointer;
-
-}
 
 .cerrar-sesion:hover {
   background-color: gray;
@@ -149,7 +165,6 @@ a {
   display: flex;
   flex-direction: row;
   left: 50px;
- 
 }
 
 
@@ -157,46 +172,16 @@ a {
     display: inline-block;
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
     color: white;
-    margin-top: 65px;
     justify-content: center;
+    margin: 24px;
+    text-decoration: none;
   }
+
+  
 
   .item:hover {
     color: rgb(0, 0, 0);
   }
-
-
-.item1 {
-    margin-left: 25%;
-  }
-  
-.item2 {
-    margin-left: 40px;
-  }
-
-.item3 {
-    margin-left: 40px;
-}
-
-.item4 {
-    margin-left: 40px;
-    height: 0;
-}
-
-.busqueda {
-    margin-left: 400px;
-    width: 130px;
-    height: 30px;
-    margin-top: 55px;
-    
-}
-
-.lupa {
-    width: 20px;
-    margin-left: 7px;
-    margin-top: 55px;
-    height: 20px;
-}
 
 
 

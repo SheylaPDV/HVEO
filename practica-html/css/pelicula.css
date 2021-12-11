@@ -4,10 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
 
-.trailer .video-trailer{
-    height: 800px;
-    padding: 50px;
-}
 
 .sinopsis {
     background-color:rgba(0, 0, 0, 0.342);
@@ -16,3 +12,37 @@
     padding: 50px;
    
 }
+
+.trailer {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.video {
+    height: 33%;
+    width: 50%;
+    display: flex;
+}
+
+.video-trailer {
+    width: 70%;
+    
+    display: flex;
+}
+
+.caja-video {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+}
+}   
