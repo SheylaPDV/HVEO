@@ -18,20 +18,27 @@
 
     <main>
         <form class="formulario-inicio-sesion">
+            
             <h1>Iniciar Sesion</h1>
             <h3>¿Tienes una cuenta en HVEO?</h3>
             <input class="input-form" placeholder="Correo electrónico" type="email">
             <input class="input-form" placeholder="Contraseña" type="password">
+
             <div class="recordar">
                 <input class="chequeo" type="checkbox" value="true" checked>
                 <span>Recordar contraseña</span>
             </div>
-            <button class="boton-form">
-                <a href="principal.html">Iniciar Sesión</a>
-            </button>
-            <div class="ayuda">
+
+            <a href="principal.html">
+                <button class="boton-form" type="button" onclick="principal.html">
+                    Iniciar Sesión
+                </button>
+            </a>
+
+            <a href="index.html" class="ayuda">
                 <span class="enlace-ayuda">¿Has olivado tu contraseña?</span>
-            </div>
+            </a>
+
         </form>
     </main>
 

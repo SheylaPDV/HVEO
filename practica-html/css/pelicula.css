@@ -4,20 +4,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
 
-
 .sinopsis {
-    background-color:rgba(0, 0, 0, 0.342);
-    color: white;
-    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
     padding: 50px;
-   
+    color: white;
+    font-family: 'Montserrat Alternates',
+                  Arial,
+                  Helvetica, 
+                  sans-serif;
+    background-color:rgba(0, 0, 0, 0.342); 
 }
 
 p {
     margin: 10px;
-    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
-
-   
+    font-family: 'Montserrat Alternates',
+                  Arial, 
+                  Helvetica,
+                  sans-serif;
 }
 
 .trailer {
@@ -25,20 +27,16 @@ p {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    /* padding-top: 15px; */
     flex-direction: row;
-    padding-bottom: 15px;
     align-items: center;
+    padding-bottom: 15px;
 }
-
-
 
 .video {
     width: 50%;
     height: 33%;
     display: flex;
 }
-
 
 .video-trailer {
     width: 70%;
@@ -49,8 +47,8 @@ p {
 .caja-video {
     width: 30%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
     align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
