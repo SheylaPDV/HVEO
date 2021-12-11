@@ -13,27 +13,37 @@
    
 }
 
+p {
+    margin: 10px;
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+
+   
+}
+
 .trailer {
     height: 50%;
     width: 100%;
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    padding-top: 15px;
+    /* padding-top: 15px; */
+    flex-direction: row;
     padding-bottom: 15px;
+    align-items: center;
 }
 
+
+
 .video {
-    height: 33%;
     width: 50%;
+    height: 33%;
     display: flex;
 }
+
 
 .video-trailer {
     width: 70%;
-    
     display: flex;
+    margin-left: 30px;
 }
 
 .caja-video {
@@ -43,6 +53,4 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    
 }
-}   
